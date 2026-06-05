@@ -74,7 +74,7 @@ func BenchmarkRapidyenc(b *testing.B) {
 }
 
 func generateInput(lines, lineLength int) (input []byte) {
-	input = append(input, fmt.Sprintf("=ybegin line=%d size=-1\r\n", lines)...) // size is not known in advance, so set to -1
+	input = append(input, fmt.Sprintf("=ybegin line=%d size=-1\r\n", lineLength)...) // size is not known in advance, so set to -1
 	var originalLines []byte
 	for range lines {
 		input = append(input, []byte(strings.Repeat("x", lineLength)+"\r\n")...)
