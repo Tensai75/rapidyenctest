@@ -1,0 +1,4 @@
+github.com/mnightingale/rapidyenc v0.0.0-20260329143228-3a336f6e1b5c h1:nYZXml2nXCI1gPHLDfd+LOJe9zelwol0UR5fR7z4Sik=
+github.com/mnightingale/rapidyenc v0.0.0-20260329143228-3a336f6e1b5c/go.mod h1:umkw2qbiwkE5lEUiFFluNIhNnjvBoMp8uwM2+y/YFNs=
+golang.org/x/sync v0.20.0 h1:e0PTpb7pjO8GAtTs2dQ6jYa5BWYlMuX047Dco/pItO4=
+golang.org/x/sync v0.20.0/go.mod h1:9xrNwdLfx4jkKbNva9FpL6vEN7evnE43NNNJQ2LF3+0=
